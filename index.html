@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ant Tasarım</title>
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Source+Sans+Pro:wght@600;700&display=swap"
+    rel="stylesheet">
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <div class="overlay" data-overlay></div>
+
+      <a href="#">
+        <h1 class="logo">Ant Tasarım</h1>
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <div class="navbar-top">
+          <a href="#" class="logo">Ant Tasarım</a>
+
+          <button class="nav-close-btn" aria-label="Close Menu" data-nav-close-btn>
+            <ion-icon name="close-outline"></ion-icon>
+          </button>
+        </div>
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="#home" class="navbar-link" data-navbar-link>Anasayfa</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#about" class="navbar-link" data-navbar-link>Hakkımızda</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#services" class="navbar-link" data-navbar-link>Hşzmetler</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#features" class="navbar-link" data-navbar-link>Özellikler</a>
+          </li>
+
+
+        </ul>
+
+      </nav>
+
+      <a href="tel:+905536442238"class="btn">
+        <ion-icon name="chevron-forward-outline" aria-hidden="true"></ion-icon>
+        
+        <span>BİZİ ARAYIN</span>
+        
+      </a>
+
+      <button class="nav-open-btn" aria-label="Open Menu" data-nav-open-btn>
+        <ion-icon name="menu-outline"></ion-icon>
+      </button>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="hero" id="home">
+        <div class="container">
+
+          <div class="hero-content">
+
+            <p class="hero-subtitle">Bir Tasarım Şirketiyiz</p>
+
+            <h2 class="h2 hero-title">Kullanıcıların Bayılacağı Arayüzler Tasarlıyoruz</h2>
+
+            <p class="hero-text">
+              Ajansımız, markanızı öne çıkaracak yaratıcı stratejiler ve çözümler sunar. Hizmetlerimiz arasında dijital pazarlama, marka yönetimi ve tasarım yer alır.
+            </p>
+
+            <a href="tel:+905536442238"><button class="btn">HEMEN ARA</button></a>
+
+          </div>
+
+          <figure class="hero-banner">
+            <img src="./assets/images/hero-banner.png" width="694" height="529" loading="lazy" alt="hero-banner"
+              class="w-100 banner-animation">
+          </figure>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="section about" id="about">
+        <div class="container">
+
+          <figure class="about-banner">
+            <img src="./assets/images/about-banner.png" width="700" height="532" loading="lazy" alt="about banner"
+              class="w-100 banner-animation">
+          </figure>
+
+          <div class="about-content">
+
+            <h2 class="h2 section-title underline">NEDEN BİZ?</h2>
+
+            <p class="about-text">
+              Ajansımız, yenilikçi ve yaratıcı çözümler sunarak müşterilerimize hizmet vermektedir. Ekibimiz tecrübeli ve dinamik, projelerimizi 
+              en yüksek standartlarda tamamlamak için birlikte çalışıyoruz. İster bir logo tasarımı olsun, ister bir web sitesi geliştirme projesi, 
+              müşteri memnuniyetini her zaman öncelikli tutuyoruz.
+            </p>
+
+            <p class="about-text">
+             Her proje, müşterilerimizin özel ihtiyaçlarına göre özelleştirilir ve en son teknolojileri kullanarak sonuçlar elde ederiz. 
+             Müşterilerimizin işlerini büyütmelerine yardımcı olmak için buradayız.
+            </p>
+
+            <ul class="stats-list">
+
+              <li class="stats-card">
+                <p class="h3 stats-title">9875</p>
+
+                <p class="stats-text">Memnun Müşteri</p>
+              </li>
+
+              <li class="stats-card">
+                <p class="h3 stats-title">7894</p>
+
+                <p class="stats-text">Tamamlanan Proje</p>
+              </li>
+
+              <li class="stats-card">
+                <p class="h3 stats-title">13</p>
+
+                <p class="stats-text">Yıllık Tecrübe</p>
+              </li>
+
+            </ul>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #SERVICE
+      -->
+
+      <section class="section service" id="services">
+        <div class="container">
+
+          <h2 class="h2 section-title underline">Uzmanlığımız</h2>
+
+          <ul class="service-list">
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <ion-icon name="telescope-outline"></ion-icon>
+                </div>
+
+                <h3 class="h3 title">Strateji ve Araştırma</h3>
+
+                <p class="text">
+                  Ajansımız, müşterilerimizin ihtiyaçlarına özel olarak tasarlanmış stratejik planlarla onlara en yüksek kalitede hizmet sunar. 
+                  Bunu yapmak için araştırma ve analizlerimizle sektörde öne çıkıyoruz.
+                </p>
+
+                <button class="card-btn" aria-label="Show More">
+                  <ion-icon name="chevron-forward-outline"></ion-icon>
+                </button>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <ion-icon name="desktop-outline"></ion-icon>
+                </div>
+
+                <h3 class="h3 title">Web Tasarımı</h3>
+
+                <p class="text">
+                  Web tasarımı alanında fark yaratan ajansımız, modern ve kullanıcı dostu web siteleri tasarlar. 
+                  Kullanıcı deneyimine önem verir, son teknolojileri takip ederiz.
+                </p>
+
+                <button class="card-btn" aria-label="Show More">
+                  <ion-icon name="chevron-forward-outline"></ion-icon>
+                </button>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <ion-icon name="globe-outline"></ion-icon>
+                </div>
+
+                <h3 class="h3 title">Web Çözümleri</h3>
+
+                <p class="text">
+                  Ajansımız, modern web teknolojileri kullanarak özelleştirilmiş web çözümleri sunar. Kullanıcı deneyimine odaklanarak, 
+                  işletmeniz için uygun web sitesi çözümleri sağlıyoruz.
+                </p>
+
+                <button class="card-btn" aria-label="Show More">
+                  <ion-icon name="chevron-forward-outline"></ion-icon>
+                </button>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #FEATURES
+      -->
+
+      <section class="section features" id="features">
+        <div class="container">
+
+          <h2 class="h2 section-title underline">Özelliklerimiz</h2>
+
+          <ul class="features-list">
+
+            <li>
+              <div class="features-card">
+
+                <div class="icon">
+                  <ion-icon name="bulb-outline"></ion-icon>
+                </div>
+
+                <div class="content">
+                  <h3 class="h3 title">Fikir ve Analiz</h3>
+
+                  <p class="text">
+                    Sizin için en uygun fikirleri geliştirmek için derinlemesine analizler yapıyoruz.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="features-card">
+
+                <div class="icon">
+                  <ion-icon name="color-palette-outline"></ion-icon>
+                </div>
+
+                <div class="content">
+                  <h3 class="h3 title">Tasarım</h3>
+
+                  <p class="text">
+                    Tasarım hayatın büyük parçası, izin verin sizin için en iyisini yapalım.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+          <figure class="features-banner">
+            <img src="./assets/images/feautres-banner.png" width="369" height="318" loading="lazy" alt="Features Banner"
+              class="w-100 banner-animation">
+          </figure>
+
+          <ul class="features-list">
+
+            <li>
+              <div class="features-card">
+
+                <div class="icon">
+                  <ion-icon name="code-slash-outline"></ion-icon>
+                </div>
+
+                <div class="content">
+                  <h3 class="h3 title">Geliştirme</h3>
+
+                  <p class="text">
+                    Son teknolojiden faydalanmak ve zamanı yakalamak bizim mottomuz.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="features-card">
+
+                <div class="icon">
+                  <ion-icon name="rocket-outline"></ion-icon>
+                </div>
+
+                <div class="content">
+                  <h3 class="h3 title">Test ve Yayın</h3>
+
+                  <p class="text">
+                    Hizmeti teslim etmeden, gerekli her kontrolü yaparız.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #BLOG
+      -->
+
+      
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+
+    <div class="footer-top section">
+      <div class="container">
+
+        <div class="footer-brand">
+
+          <a href="#" class="logo">Ant Tasarım</a>
+
+          <p class="text">
+            Markanızın başarısı için yaratıcı çözümler sunan bir ajansız. Hemen tanışın!
+          </p>
+
+          <ul class="social-list">
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Linkler</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Anasayfa</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Hakkımızda</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Hizmetler</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Takımımız</a>
+          </li>
+
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Hizmetler</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Araştırma ve Geliştirme.</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Web Tasarımı</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Web Çözümleri</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Dijital Pazarlama</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Uygulama Tasarımı</a>
+          </li>
+
+        </ul>
+
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">İletişim</p>
+          </li>
+
+          <li class="footer-item">
+
+            <div class="footer-item-icon">
+              <ion-icon name="call"></ion-icon>
+            </div>
+
+            <div>
+              <a href="tel:+2484214313" class="footer-item-link">+90 553 644 22 38</a>
+              
+            </div>
+
+          </li>
+
+          <li class="footer-item">
+
+            <div class="footer-item-icon">
+              <ion-icon name="mail"></ion-icon>
+            </div>
+
+            <div>
+              <a href="mailto:info@desinic.com" class="footer-item-link">info@anttasarım.com.tr</a>
+              <a href="mailto:help@desinic.com" class="footer-item-link">help@anttasarım.com.tr</a>
+            </div>
+
+          </li>
+
+          <li class="footer-item">
+
+            <div class="footer-item-icon">
+              <ion-icon name="location"></ion-icon>
+            </div>
+
+            <address class="footer-item-link">
+              Demircikara Mah. 1437 sok. Lilapark evleri C Blok - 2C/D, 07230 Muratpaşa/Antalya
+            </address>
+
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p class="copyright">
+        &copy; 2023 <a href="#" class="copyright-link">openBrand</a>. All Right Reserved
+      </p>
+    </div>
+
+  </footer>
+
+
+
+
+
+  <!-- 
+    - #GO TO TOP
+  -->
+
+  <a href="#top" class="go-top  active" aria-label="Go To Top" data-go-top>
+    <ion-icon name="arrow-up-outline"></ion-icon>
+  </a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
